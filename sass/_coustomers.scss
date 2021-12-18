@@ -1,0 +1,42 @@
+.regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .regular-customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+  }
+  
+  .regular-coustomers-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .regular-customers-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--base-svg-color);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: var(--base-svg-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .regular-coustomers-logo {
+    fill: currentColor;
+  }
+  
+  .regular-customers-link:hover,
+  .regular-customers-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
