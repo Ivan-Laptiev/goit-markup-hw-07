@@ -29,14 +29,14 @@
     color: var(--base-svg-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+      }
   }
   
   .regular-coustomers-logo {
     fill: currentColor;
   }
   
-  .regular-customers-link:hover,
-  .regular-customers-link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-  }
