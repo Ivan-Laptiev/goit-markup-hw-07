@@ -1,9 +1,9 @@
-.regular-customers {
+.customers {
     padding-top: 94px;
     padding-bottom: 94px;
   }
   
-  .regular-customers-title {
+  .customers__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -13,12 +13,12 @@
     margin-bottom: 50px;
   }
   
-  .regular-coustomers-list {
+  .customers__logos {
     display: flex;
     justify-content: space-between;
   }
   
-  .regular-customers-link {
+  .customers__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -36,7 +36,7 @@
       }
   }
   
-  .regular-coustomers-logo {
+  .customer__logo {
     fill: currentColor;
   }
   

@@ -2,7 +2,7 @@
     padding-bottom: 94px;
   }
   
-  .about-title {
+  .about__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -12,16 +12,16 @@
     margin-bottom: 50px;
   }
   
-  .about-list {
+  .about__list {
     display: flex;
     justify-content: space-between;
   }
   
-  .about-item-box {
+  .about__poster {
     position: relative;
   }
   
-  .about-item-box-text {
+  .about__text {
     position: absolute;
     top: 224px;
     width: 100%;

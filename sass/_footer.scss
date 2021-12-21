@@ -8,40 +8,21 @@
   display: flex;
 }
 
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
-}
-
 .footer-container {
   display: flex;
 }
 
-.footer-item{
+.logo-box{
+  margin-bottom: 20px;
+}
+
+.address-list__item{
   &:not(:last-child) {
       margin-bottom: 9px;
   }
 }
 
-.footer-first-part-logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--first-logo-color);
-}
-
-.footer-second-part-logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--third-logo-color);
-}
-
-.footer-map-link {
+.map-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -49,7 +30,7 @@
   color: var(--first-footer-text-color);
 }
 
-.footer-contact {
+.address-list__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -78,11 +59,11 @@
   margin-bottom: 20px;
 }
 
-.join-us-socials {
+.our-socials {
   display: flex;
 }
 
-.join-us-socials-item {
+.our-socials__item {
   width: 44px;
   height: 44px;
   & + & {
@@ -90,7 +71,7 @@
   }
 }
 
-.join-us-socials-link {
+.our-socials__link {
   width: 100%;
   height: 100%;
   background-color: var(--footer-icon-background);
@@ -106,11 +87,11 @@
   }
 }
 
-.join-us-socials-icon {
+.our-socials__icon {
   fill: currentColor;
 }
 
-.part-online-form {
+.online-form {
   padding-top: 12px;
   margin-left: auto;
 }
@@ -160,6 +141,6 @@
   justify-content: center;
 }
 
-.online-form-logo{
+.online-input__logo{
  margin-left: 10px;
 }
